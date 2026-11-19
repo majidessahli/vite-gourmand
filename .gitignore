@@ -1,0 +1,7 @@
+/vendor/
+/.env
+/config.php
+/test_mongodb.php
+/test_mdp.php
+/creer_admin.php
+/cree_employer.php

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f6f0;
+    color: #333;
+}
+
+header {
+    background: #244b3c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+nav {
+    margin-top: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e5bd79;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #e8e1d2;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.bouton {
+    display: inline-block;
+    background: #244b3c;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bouton:hover {
+    background: #376b55;
+}
+
+.presentation {
+    max-width: 900px;
+    margin: auto;
+    padding: 65px 20px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.presentation h2 {
+    margin-bottom: 20px;
+    color: #244b3c;
+}
+
+footer {
+    background: #244b3c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    line-height: 2;
+}
+/* Gestion des menus */
+
+.catalogue {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.catalogue h2 {
+    color: #315b43;
+    margin-bottom: 25px;
+}
+
+.catalogue section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+.catalogue h3 {
+    color: #315b43;
+    margin-bottom: 18px;
+}
+
+.catalogue form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.catalogue input,
+.catalogue textarea,
+.catalogue select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.catalogue textarea {
+    min-height: 70px;
+    resize: vertical;
+}
+
+.catalogue button {
+    background-color: #315b43;
+    color: white;
+    border: none;
+    padding: 11px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.catalogue button:hover {
+    background-color: #254633;
+}
+
+.carte-menu {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.carte-menu h4 {
+    color: #315b43;
+    margin-top: 0;
+}
